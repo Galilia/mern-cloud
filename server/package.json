@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "mern-cloud-disk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ilia Galperin",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "bcryptjs": "^2.4.3",
+    "express-fileupload": "^1.1.10",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
